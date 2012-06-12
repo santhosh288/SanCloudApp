@@ -1,0 +1,23 @@
+<wicket:panel xmlns:wicket="http://wicket.apache.org">
+    <span wicket:id="feedback"/>
+    <form wicket:id="loginForm">
+
+        <table border="0">
+            <tr>
+                <td>Username</td>
+                <td><input type="text" wicket:id="username"/></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" wicket:id="password"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="submit" value="Login"/>
+                    &nbsp;
+                    <input type="button" value="Register"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</wicket:panel>
