@@ -21,7 +21,7 @@ import org.apache.wicket.model.IModel;
 public class LoginPanel extends Panel {
     private LoginInfo loginInfo;
 
-    private transient LoginService loginService = new LoginService();
+    private LoginService loginService = new LoginService();
 
     public LoginPanel(String id) {
         super(id);
