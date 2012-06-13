@@ -12,7 +12,7 @@ import java.sql.*;
  * Time: 21:59
  * To change this template use File | Settings | File Templates.
  */
-public class LoginService {
+public class LoginService implements Serializable {
     public boolean isValid(LoginInfo loginInfo)  {
         Connection con = null;
 
